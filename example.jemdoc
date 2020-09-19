@@ -1,0 +1,62 @@
+# jemdoc: menu{MENU}{example.html}
+= Sindhu P R\n
+
+
+
+
+~~~
+{}{img_left}{IMG_0580.JPG}{alt text}{WIDTHpx}{HEIGHTpx}{IMGLINKTARGET}
+MSc(Engg) Student,\n
+[http://www.csa.iisc.ernet.in Department of Computer Science and Automation],\n
+Indian Institute of Science, \n Bangalore - 560 012 
+~~~
+
+
+
+
+== Contact
+Email: sindhupr@csa.iisc.ernet.in
+#
+== What Is Jemdoc
+Jemdoc is a python script, which processes files written in jemdoc's syntax (which is far much easier
+than html) to generate clean XHTML 1.1 compliant static html webpages (In case you haven't noticed yet: this page was created with Jemdoc).
+Ah, and the most important fact about Jemdoc: It's free (as in free speech).
+#
+== What Can I Do With Jemdoc
+In general, you can create very good looking HTML webpages in a very short time. Jemdoc allows you to concentrate on content, and it takes care of the design. It's similar to [http://www.lyx.org LyX] in this aspect.
+~~~
+You can easily create information blocks with jemdoc.
+~~~
+#
+You can also use code blocks as in this example:
+~~~
+{}{c}
+#include <stdio.h>
+int
+main() {
+	printf("Jemdoc is great");
+	return (0);
+}
+~~~
+#
+== So What We Already Know About Jemdoc
+- It's great, because:
+	. It creates static HTML pages:
+		.. Which are XHTML 1.1 compliant.
+		.. And very clean and good looking.
+	. Its syntax is easy.
+- It's also great because it's free.
+#
+== Resources
+I know you can't wait to use Jemdoc, so [http://jemdoc.jaboc.net here is Jemdoc's website].
+You can find there:
+- jemdoc.py    : Which is the main script.
+- jemdoc.css   : A default css (which you can customize if you like)
+- jemdoc.vim   : A syntax file for vim
+- An example makefile
+- More examples of jemdoc's syntax
+#
+== And Last Thing
+You can find the source file of this page [http://amirwatad.com/blog/more/jemdoc/example.jemdoc here].
+I used the default css which comes with jemdoc. If you insist to see it, it's located [http://amirwatad.com/blog/more/jemdoc/jemdoc.css here].
+Enjoy!
